@@ -23,6 +23,6 @@ Udacity project.  Item catalog website with db CRUD and oauth  Google login.
 * Users cannot Get or Post Edit or Delete place without being the original creators of the place.
 * Logged in users can create new place.
 * Can access JSON data at the following pages:
-  * Category list: [http://localhost:5000/category/JSON](http://localhost:5010/category/JSON)
+  * Category list: [http://localhost:5010/category/JSON](http://localhost:5010/category/JSON)
   * Specific category's place: [http://localhost:5010/category/\<category_id\>/JSON](http://localhost:5000/category/1/JSON)
   * Specific place information: [http://localhost:5010/category/\<category_id\>/\<item_id\>/JSON](http://localhost:5000/category/1/1/JSON)
