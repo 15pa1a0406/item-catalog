@@ -1,0 +1,8 @@
+{% extends 'main.html' %}
+{% block body %}
+    <h2>Recent entries:</h2>
+    {% for place in places %}
+    <a href="{{url_for('show_place', category_id=place.category.id, place_id=place.id)}}">{{place.name}}, {{place.category.name}}</a>
+    <br>
+    {% endfor %}
+{% endblock %}

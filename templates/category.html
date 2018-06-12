@@ -1,0 +1,8 @@
+{% extends 'main.html' %}
+{% block body %}
+    <h2>{{category.name}} Cities:</h2>
+    {% for place in places %}
+    <a href="{{url_for('show_place', category_id=place.category.id, place_id=place.id)}}">{{place.name}}</a>
+    <br>
+    {% endfor %}
+{% endblock %}
